@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"w1575\\console\\": "src/"}
+        "psr-4": {"w1575\\": "src/"}
     },
     "require": {}
 }
