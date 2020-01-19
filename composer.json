@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"w1575\\ConsoleColor\\": "src/"}
+        "psr-4": {"w1575\\": "src/"}
     },
     "require": {}
 }
