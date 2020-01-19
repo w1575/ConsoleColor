@@ -1,12 +1,12 @@
 {
     "name": "w1575/console-color",
-    "description": "A simple hello world composer package",
+    "description": "Console with color themes :)",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "w1575",
-            "email": "-"
+            "email": "w1575@ya.ru"
         }
     ],
     "minimum-stability": "stable",
