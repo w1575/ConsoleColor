@@ -1,5 +1,6 @@
 {
     "name": "w1575/console-color",
+    "version": 0.1,
     "description": "Console with color themes :)",
     "type": "library",
     "license": "MIT",
