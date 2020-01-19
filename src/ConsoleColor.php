@@ -6,7 +6,7 @@
  *
  */
 
-namespace w1575;
+namespace w1575\console;
 
 class ConsoleColor
 {
