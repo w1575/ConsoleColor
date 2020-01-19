@@ -22,7 +22,7 @@ $console->warning('Предупреждение');
 $console->danger('Критическая ошибка');
 ```
 
-Скриншоты:
+## Скриншоты:
 
 
 ![](images/theme-inverted.png)
