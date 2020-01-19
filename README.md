@@ -1,4 +1,4 @@
-#ConsoleColor
+# ConsoleColor
 
 Небольшой класс, который помогает расрасить текст консольного приложения на php.
 
@@ -7,7 +7,7 @@
 С помощью composer:
 `composer require "w1575/console-color @dev"`
 
-###Использование:
+### Использование:
 ```php
 use w1575\ConsoleColor;
 
