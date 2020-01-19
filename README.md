@@ -5,24 +5,27 @@
 ## Быстрый старт.
 ### Установка.
 С помощью composer:
+`composer require "w1575/console-color @dev"`
 
-    composer require "w1575/console-color @dev"
+###Использование:
+```php
+use w1575\ConsoleColor;
 
-Использование:
+$console = new ConsoleColor('invert', 120);  
+//  Пока что есть только 2 темы: default и inert. По-умолчанию используется (ВНЕЗАПНО!) default.
+// Второй параметр - максимальная длина строки. используется для переноса длинных строк
+$console->title('Заголовок');
+$console->text('Обычный текст');
+$console->info('Информация');
+$console->success('Успешно');
+$console->warning('Предупреждение');
+$console->danger('Критическая ошибка');
+```
 
-        use w1575\ConsoleColor;
+Скриншоты:
 
-        $console = new ConsoleColor('invert', 120);  
-		//  Пока что есть только 2 темы: default и inert. По-умолчанию используется (ВНЕЗАПНО!) default.
-		// Второй параметр - максимальная длина строки. используется для переноса длинных строк
-
-        $console->title('Заголовок');
-        $console->text('Обычный текст');
-        $console->info('Информация');
-        $console->success('Успешно');
-        $console->warning('Предупреждение');
-        $console->danger('Критическая ошибка');
 
 ![](images/theme-inverted.png)
+
 
 ![](images/theme-default.png)
